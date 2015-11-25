@@ -1,0 +1,4 @@
+package brew
+package osx
+package sublime
+theme default
