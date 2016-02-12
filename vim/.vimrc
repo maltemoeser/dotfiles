@@ -43,7 +43,8 @@ nnoremap k gk
 
 nnoremap gV `[v`]
 
-map <space> /       " map space to search
+" map space to search
+map <space> /
 
 " YCM
 let g:ycm_collect_identifiers_from_tags_files = 1
