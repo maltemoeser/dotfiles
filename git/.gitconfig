@@ -1,6 +1,6 @@
 [user]
 	name = Malte Möser
-	email = mail@maltemoeser.de
+	email = ilovegit@maltemoeser.de
 [core]
 	quotepath = false
 	excludesfile = /Users/malte/.gitignore_global
