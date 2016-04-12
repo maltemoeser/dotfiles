@@ -13,3 +13,6 @@ source $OMF_PATH/init.fish
 # Enable thefuck
 eval (thefuck --alias | tr '\n' ';')
 
+# Homebrew's command not found
+brew command command-not-found-init > /dev/null; and . (brew command-not-found-init)
+
