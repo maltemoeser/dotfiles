@@ -16,6 +16,6 @@ eval (thefuck --alias | tr '\n' ';')
 # Disable Homebrew Analytics
 set -gx HOMEBREW_NO_ANALYTICS 1
 
-# Improve Bluetooth Audio
-defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" 45
+# Add SSH identity
+ssh-add -K ~/.ssh/id_rsa
 
