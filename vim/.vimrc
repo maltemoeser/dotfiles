@@ -1,19 +1,20 @@
 set nocompatible
 filetype off
 
-syntax enable		" enable syntax processing
+syntax enable       " enable syntax processing
 
-set tabstop=4		" number of spaces per TAB
-set softtabstop=4	" number of spaces in TAB when editing
-set expandtab		" tabs are spaces
+set tabstop=4       " number of spaces per TAB
+set softtabstop=4   " number of spaces in TAB when editing
+set expandtab       " tabs are spaces
+set shiftwidth=4
 set smarttab
 set ai              " auto indent
 set si              " smart indent
 
 set encoding=utf8
 
-set number  		" show line numbers
-set showcmd		    " show command in bottom bar
+set numbers         " show line numbers
+set showcmd         " show command in bottom bar
 
 set wildmenu        " visual autocomplete for command menu
 set showmatch       " highlight matching braces
@@ -31,4 +32,3 @@ nnoremap gV `[v`]
 
 " map space to search
 map <space> /
-
