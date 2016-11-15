@@ -13,7 +13,7 @@ set si              " smart indent
 
 set encoding=utf8
 
-set numbers         " show line numbers
+set number          " show line numbers
 set showcmd         " show command in bottom bar
 
 set wildmenu        " visual autocomplete for command menu
