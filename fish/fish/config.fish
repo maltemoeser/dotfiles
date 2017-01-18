@@ -10,9 +10,6 @@ source $OMF_PATH/init.fish
 # Load autojump
 [ -f /usr/local/share/autojump/autojump.fish ]; and . /usr/local/share/autojump/autojump.fish
 
-# Enable thefuck
-eval (thefuck --alias | tr '\n' ';')
-
 # Disable Homebrew Analytics
 set -gx HOMEBREW_NO_ANALYTICS 1
 
