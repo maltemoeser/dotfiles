@@ -3,7 +3,7 @@
 	email = ilovegit@maltemoeser.de
 [core]
 	quotepath = false
-	excludesfile = /Users/mmoeser/.dotfiles/git/.gitignore_global
+	excludesfile = /Users/malte/.dotfiles/git/.gitignore_global
 	precomposeunicode = true
 	editor = vim
 [push]
