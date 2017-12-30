@@ -6,5 +6,6 @@
 	excludesfile = /Users/malte/.dotfiles/git/.gitignore_global
 	precomposeunicode = true
 	editor = vim
+	autocrlf = input
 [push]
 	default = simple
